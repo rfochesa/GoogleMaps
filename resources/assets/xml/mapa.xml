@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mapa Ricardo</name>
+    <description>Meu primeiro mapa</description>
+    <Style id="poly-C2185B-1200-76-nodesc-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-C2185B-1200-76-nodesc-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4c5b18c2</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-C2185B-1200-76-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C2185B-1200-76-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C2185B-1200-76-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Camada 1</name>
+      <Placemark>
+        <name>Bloq</name>
+        <styleUrl>#poly-C2185B-1200-76-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -51.1405635,-29.1262411,0
+                -51.1401586,-29.1271057,0
+                -51.1384661,-29.1283076,0
+                -51.1382998,-29.1314237,0
+                -51.1381389,-29.1328201,0
+                -51.137259,-29.1339635,0
+                -51.1370444,-29.1346195,0
+                -51.1370015,-29.1353786,0
+                -51.1370874,-29.1369576,0
+                -51.1364436,-29.1359502,0
+                -51.1365509,-29.1339634,0
+                -51.1375273,-29.1325389,0
+                -51.1377821,-29.1316673,0
+                -51.1378652,-29.1297836,0
+                -51.1379484,-29.1280686,0
+                -51.1396207,-29.12663,0
+                -51.138118,-29.1269042,0
+                -51.1372591,-29.1271034,0
+                -51.137774,-29.1260162,0
+                -51.1395765,-29.1259975,0
+                -51.1405635,-29.1262411,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
